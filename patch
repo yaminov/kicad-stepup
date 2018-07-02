@@ -1,0 +1,20 @@
+*** kicad-StepUp-tools.FCMacro.1	2018-05-11 21:28:16.000000000 +0700
+--- kicad-StepUp-tools.FCMacro	2018-06-06 14:15:32.332728617 +0700
+***************
+*** 3357,3363 ****
+  if apply_reflex==True:
+      say("applying Materials to Shapes")
+  say("your home path is "+ home)
+! fname_ksu=home+os.sep+'ksu-config.ini'
+  ksu_config_fname=fname_ksu
+  
+  default_ksu_config_ini=u"""[info]
+--- 3357,3364 ----
+  if apply_reflex==True:
+      say("applying Materials to Shapes")
+  say("your home path is "+ home)
+! #fname_ksu=home+os.sep+'ksu-config.ini'
+! fname_ksu='ksu-config.ini'
+  ksu_config_fname=fname_ksu
+  
+  default_ksu_config_ini=u"""[info]
